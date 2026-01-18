@@ -1,0 +1,56 @@
+# Myrex AIA System Requirements
+# Python 3.9+ required
+
+# Database connectivity
+pyodbc>=4.0.39
+
+# Excel file generation
+openpyxl>=3.1.2
+
+# PDF generation
+reportlab>=4.0.4
+
+# GUI framework (built-in with Python)
+# tkinter - included with Python
+
+# Data manipulation
+pandas>=2.0.3
+
+# Date/time handling (built-in)
+# datetime - included with Python
+
+# File operations (built-in)
+# os, shutil, pathlib - included with Python
+
+# Logging (built-in)
+# logging - included with Python
+
+# JSON handling (built-in)
+# json - included with Python
+
+# Data classes (built-in for Python 3.7+)
+# dataclasses - included with Python
+
+# Type hints (built-in for Python 3.5+)
+# typing - included with Python
+
+# Threading (built-in)
+# threading - included with Python
+
+# Regular expressions (built-in)
+# re - included with Python
+
+# Testing (optional)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Development tools (optional)
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Optional: For advanced Excel features
+xlwings>=0.31.0
+
+# Optional: For enhanced PDF features
+Pillow>=10.0.0
